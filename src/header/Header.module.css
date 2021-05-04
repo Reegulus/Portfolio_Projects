@@ -1,4 +1,7 @@
 .header {
     height: 80px;
     background-color: #4a91e0;
+    display: flex;
+    justify-content: flex-end;
+
 }
