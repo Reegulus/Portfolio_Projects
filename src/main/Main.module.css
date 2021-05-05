@@ -2,3 +2,24 @@
     height: 100vh;
     background-color: #c189a2;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.greetings {
+    width: 300px;
+    background-color: #cdcbcb;
+}
+
+.avaPhoto {
+    width: 344px;
+    height: 430px;
+    background-color: #cdcbcb;
+}
