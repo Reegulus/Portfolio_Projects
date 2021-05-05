@@ -1,3 +1,4 @@
+import { title } from 'process';
 import React from 'react';
 import './App.css';
 import {Header} from "./header/Header";
@@ -9,7 +10,7 @@ function App() {
         <div className="App">
             <Header/>
             <Main/>
-            <Skills/>
+            <Skills />
         </div>
     );
 }
