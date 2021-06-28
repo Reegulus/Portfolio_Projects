@@ -19,6 +19,7 @@ export function Skills() {
                     <Skill title={'React'}
                            description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit,\n" +
                     "                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+
                 </div>
             </div>
         </div>

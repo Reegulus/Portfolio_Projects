@@ -1,4 +1,26 @@
-.worksBlock {
+.projectsBlock {
     height: 100vh;
     background-color: #7af6e9;
+}
+
+.projectsContainer {
+    display: flex;
+    align-items: center;
+    /*align-items: flex-start;*/
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+.title {
+    background-color: #e7dd9c;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid;
 }
