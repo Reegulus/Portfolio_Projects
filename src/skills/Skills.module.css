@@ -17,10 +17,10 @@
     background-color: #e7dd9c;
 }
 .skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    border: 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        border: 1px solid;
 
 }

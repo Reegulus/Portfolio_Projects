@@ -6,11 +6,10 @@
     width: 250px;
     background-color: #686ec1;
 }
-.icon img {
-    width: 150px;
-    height: 150px;
+.icon {
+    display: flex;
 }
-/*.workBlock.img {
+.icon img {
     width: 250px;
-    height: 200px;
-}*/
+    /*height: 150px;*/
+}
