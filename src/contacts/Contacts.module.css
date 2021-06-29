@@ -1,11 +1,10 @@
 .contactsBlock {
-    height: 100vh;
+    min-height: 33vh;
     background-color: #b2ec74;
 }
 .contactsContainer {
     display: flex;
     align-items: center;
-    /*align-items: flex-start;*/
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid;

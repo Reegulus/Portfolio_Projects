@@ -5,11 +5,22 @@
     text-align: center;
     width: 250px;
     background-color: #686ec1;
+    margin: 5px 5px 0px 5px;
 }
-.icon {
+.imgContainer {
+    /*position: relative;*/
+    /*display: flex;*/
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.icon img {
+.imgContainer img {
     width: 250px;
-    /*height: 150px;*/
+}
+.projectLink {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #9df36c;
 }
