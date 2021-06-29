@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid;
-    height: 80%;
+    height: 42%;
     width: 80%;
     margin: 0 auto;
 
@@ -22,7 +22,7 @@
     /*flex-direction: column;*/
     justify-content: center;
     height: 50%;
-    width: 50%;
+    width: 25%;
     background-color: #e7dd9c;
 }
 .formBody {
@@ -31,7 +31,24 @@
     justify-content: center;
 }
 .formInputName {
-
+    height: 26px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.formInputEmail {
+    height: 26px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.formMessage {
+    height: 52px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.formButton {
     border-radius: 5px;
     margin-bottom: 10px;
 }

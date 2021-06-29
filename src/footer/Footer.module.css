@@ -1,0 +1,16 @@
+.footerBlock {
+    height: 100vh;
+    background-color: #f8cd47;
+}
+.footerContainer {
+    display: flex;
+    align-items: center;
+    /*align-items: flex-start;*/
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid;
+    height: 42%;
+    width: 80%;
+    margin: 0 auto;
+
+}

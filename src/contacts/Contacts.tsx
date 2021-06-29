@@ -17,7 +17,7 @@ export function Contacts(props: ContactsPropsType) {
                     </form>
                 </div>
                 <div>
-                    <button>Send</button>
+                    <button className={style.formButton}>Send Message</button>
                 </div>
             </div>
         </div>
