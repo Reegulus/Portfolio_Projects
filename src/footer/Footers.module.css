@@ -15,16 +15,25 @@
 
 }
 .footerForm {
+    width: 280px;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
     padding: 15px;
     list-style-type: none;
 }
-.inst {
+/*.footerInst {
+    height: 50px;
+    width: 50px;
+    background-color: #b3b0b0;
     margin: 0px 15px 0px 0px;
 }
-.link {
+.footerLink {
+    height: 50px;
+    width: 50px;
+    background-color: #b3b0b0;
     margin: 0px 15px 0px 0px;
 }
-.git {
+.footerGit {
     margin: 0px 15px 0px 0px;
-}
+}*/
