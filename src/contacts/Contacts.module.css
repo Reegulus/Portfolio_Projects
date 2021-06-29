@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid;
-    height: 42%;
+    height: 100%;
     width: 80%;
     margin: 0 auto;
 
@@ -43,7 +43,8 @@
     margin-bottom: 10px;
 }
 .formMessage {
-    height: 52px;
+    min-height: 52px;
+    resize: vertical;
     width: 100%;
     border-radius: 5px;
     margin-bottom: 10px;

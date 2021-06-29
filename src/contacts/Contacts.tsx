@@ -14,10 +14,8 @@ export function Contacts(props: ContactsPropsType) {
                         <input className={style.formInputName} type="text" name={"name"}/>
                         <input className={style.formInputEmail} type="text" name={"email"}/>
                         <textarea className={style.formMessage} name="message"></textarea>
+                        <button className={style.formButton}>Send Message</button>
                     </form>
-                </div>
-                <div>
-                    <button className={style.formButton}>Send Message</button>
                 </div>
             </div>
         </div>

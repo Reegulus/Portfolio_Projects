@@ -1,5 +1,5 @@
 .footerBlock {
-    height: 100vh;
+    height: 15vh;
     background-color: #f8cd47;
 }
 .footerContainer {
@@ -9,8 +9,22 @@
     flex-direction: column;
     justify-content: flex-start;
     border: 1px solid;
-    height: 42%;
+    height: 100%;
     width: 80%;
     margin: 0 auto;
 
+}
+.footerForm {
+    display: flex;
+    padding: 15px;
+    list-style-type: none;
+}
+.inst {
+    margin: 0px 15px 0px 0px;
+}
+.link {
+    margin: 0px 15px 0px 0px;
+}
+.git {
+    margin: 0px 15px 0px 0px;
 }
