@@ -7,7 +7,7 @@ export function Nav() {
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">My skills</a>
-            <a href="">Works</a>
+            <a href="">My Projects</a>
             <a href="">Contact</a>
         </div>
     );

@@ -1,5 +1,5 @@
 .mainBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #c189a2;
 }
 
@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     border: 1px solid;
     height: 100%;
     width: 80%;
@@ -16,10 +17,12 @@
 .greetings {
     width: 300px;
     background-color: #cdcbcb;
+    margin: 5px;
 }
 
 .avaPhoto {
     width: 344px;
     height: 430px;
     background-color: #cdcbcb;
+    margin: 5px;
 }
