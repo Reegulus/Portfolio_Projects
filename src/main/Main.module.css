@@ -26,3 +26,9 @@
     background-color: #cdcbcb;
     margin: 5px;
 }
+
+@media  screen and (max-width: 833px) {
+    .container {
+        justify-content: center;
+    }
+}

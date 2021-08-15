@@ -16,39 +16,32 @@
 .title {
     background-color: #e7dd9c;
 }
-.containerForm {
-    display: flex;
-    /*flex-direction: column;*/
-    justify-content: center;
-    height: 50%;
-    width: 25%;
-    background-color: #e7dd9c;
-}
-.formBody {
+
+.contactForm {
+    width: 50%;
+    background-color: #bfd3d3;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.formInputName {
-    height: 26px;
+.contactForm input, .contactForm textarea {
+    height: 35px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-bottom: 10px;
 }
-.formInputEmail {
-    height: 26px;
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-.formMessage {
-    min-height: 52px;
-    resize: vertical;
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
+
 .formButton {
-    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #857a78;
+    border-radius: 4px;
     margin-bottom: 10px;
 }
+
+@media  screen and (max-width: 655px) {
+    .contactForm {
+        width: 100%;
+    }
+}
+
+

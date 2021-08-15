@@ -5,3 +5,9 @@
     justify-content: flex-end;
 
 }
+
+@media  screen and (max-width: 833px) {
+    .header {
+        justify-content: center;
+    }
+}

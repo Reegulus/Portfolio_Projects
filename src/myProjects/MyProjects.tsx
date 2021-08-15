@@ -13,16 +13,11 @@ export function MyProjects() {
                         title={"Social NetWork"}
                         description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit,\n" + "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
                     <MyProject
-                    icon={'https://www.hubspot.com/hubfs/free-project-management-tools.jpeg'}
-                    title={"TodoList"}
-                    description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit,\n" + "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
-                    <MyProject
-                    icon={'https://www.hubspot.com/hubfs/free-project-management-tools.jpeg'}
-                    title={"Counter"}
-                    description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit,\n" + "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+                        icon={'https://www.hubspot.com/hubfs/free-project-management-tools.jpeg'}
+                        title={"TodoList"}
+                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit,\n" + "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
+
                 </div>
             </div>
         </div>
-    );
-}
-
+    )}
