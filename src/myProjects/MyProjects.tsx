@@ -6,7 +6,10 @@ export function MyProjects() {
     return (
         <div className={style.projectsBlock}>
             <div className={style.projectsContainer}>
-                <h2 className={style.title}>My Projects</h2>
+
+                <div className={style.title}>
+                    <h2 >My Projects</h2>
+                </div>
                 <div className={style.projects}>
                     <MyProject
                         icon={'https://lwbalance.com/wp-content/uploads/2018/06/Teamwork-collaboration-2000x1200.jpg'}
@@ -20,4 +23,5 @@ export function MyProjects() {
                 </div>
             </div>
         </div>
-    )}
+    )
+}
