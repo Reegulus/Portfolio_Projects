@@ -13,6 +13,7 @@ export function MyProjects() {
                 <div className={style.projects}>
                     <MyProject
                         icon={'https://lwbalance.com/wp-content/uploads/2018/06/Teamwork-collaboration-2000x1200.jpg'}
+                        // icon={'https://lwbalance.com/wp-content/uploads/2018/06/Teamwork-collaboration-2000x1200.jpg'}
                         title={"Social NetWork"}
                         description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit,\n" + "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim..."}/>
                     <MyProject
