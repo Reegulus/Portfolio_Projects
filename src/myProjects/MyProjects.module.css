@@ -16,6 +16,9 @@
 .title {
     background-color: #e7dd9c;
 }
+.title h2 {
+    font-family: 'Montserrat', sans-serif;
+}
 .projects {
     display: flex;
     flex-wrap: wrap;
